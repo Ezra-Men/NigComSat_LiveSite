@@ -1,12 +1,14 @@
 import NigeriaMap from "./components/NigeriaMap";
-import './App.css'
 
 function App() {
   return (
-     <div style={{ height: "100vh", width: "100%" }}>
+    <div>
+      <h1 style={{ textAlign: "center", margin: "10px" }}>
+        NigComSat Remote Sites Map
+      </h1>
       <NigeriaMap />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
